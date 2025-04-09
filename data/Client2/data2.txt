@@ -1,0 +1,11 @@
+This folder should contain the raw data for Client 2.
+You should create two folders, train and test, and split the image dataset according to your preferred ML ratio.
+For me, I am using an 80:20 split.
+
+Client_2/
+├── train/
+│   ├── Diseased/
+│   └── Healthy/
+├── test/
+│   ├── Diseased/
+│   └── Healthy/

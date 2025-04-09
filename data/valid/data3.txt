@@ -1,0 +1,6 @@
+This folder should contain the raw data to validate the ML results.
+You should directly import the images in this folder.
+For me, I am using an 80:20 split.
+
+valid/
+├── raw_data(images)

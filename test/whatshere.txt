@@ -1,0 +1,2 @@
+This folder contains the trained model. I have already trained the model, and here are the test results.
+If you don't want to run the model on your machine, I have pre-curated the trained model — you just need to move all the files to the base directory where the other project files are located.

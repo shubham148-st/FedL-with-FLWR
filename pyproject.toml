@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = ""
+version = "0.1.0"
+description = "PyTorch Federated Learning Quickstart with Flower"
+authors = [
+    { name = "The Flower Authors", email = "hello@flower.ai" },
+]
+dependencies = [
+    "flwr>=1.8.0,<2.0",
+    "torch==2.1.1",
+    "pandas",
+    "scikit-learn"
+]
+[tool.flwr.app]
+publisher = "shubham"
+
+
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
+
+[training]
+local_epochs = 5
+batch_size = 64
+
+[server]
+global_epochs = 20 #no. of rounds
+clients = 2
